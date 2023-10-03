@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>My Page</title>
+            <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.production.css">
+     </head>
+    <body>
+        <header class="page-header">
+            <img src="./img/logo.svg" alt="logo">
+            <nav class="main-navigation page-header__item">
+                <ul role="menubar" class="navigation-list">
+                   <li role="presentation">
+                      <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+                   </li>
+                   <li role="presentation">
+                      <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+                   </li>
+                   <li role="presentation">
+                      <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                   </li>
+                   <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+                  </li>
+                </ul>
+             </nav>    
+        </header>
+        <main>  
+            <form action="#" method="post" id="contact-form">
+                <label class="standard-label" for="contact-email">Email: </label>
+                <input type="email" id="contact-email" required>
+    
+                <label class="standard-label" for="contact-tel">Telephone: </label>
+                <input type="tel" id="contact-tel">
+    
+                <label class="standard-label" for="contact-message">Message: </label>
+                <textarea maxlength="240" id="contact-message" required></textarea>
+    
+                <input type="submit" value="Send message">
+            </form>
+                <div>
+                    <p>My name is Ko Maegawa</p>  
+                    CareerFoundry<br>
+                    1188 Howe Street<br>
+                    Vancouver, B.C. Canada<br>
+                    <br>
+                </div>               
+                    Tel <a href="tel:+6042201193" aria-label="tel: +6042201193">+6042201193</a><br>
+                    Email <a href="mailto:kmaegawa87@gmail.com">kmaegawa87@gmail.com</a>
+                        <a href="mailto:kmaegawa87@gmail.com">Contact me</a>
+        </main> 
+        <footer class="page-footer">
+            <p>Find me on</p>
+            <div class="social-media">
+                <a href="https://twitter.com/" target="_blank"><img src="./img/twitter.svg" alt="Twitter"></a>
+                <a href="https://facebook.com/" target="_blank"><img src="./img/facebook.svg" alt="Facebook"></a>
+                <a href="https://linkedin.com/" target="_blank"><img src="./img/linkedin.svg" alt="Linkedin"></a>
+            </div>        
+            </footer>    
+        <script src="js/tota11y.min.js"></script> 
+    </body>
+</html>
