@@ -55,6 +55,11 @@ button:hover, button:focus {
   opacity: 0.8;
 }
 
+.button__secondary {
+  background-color: #30E723;
+  color: #161646;
+}
+
 .profile__portrait {
   float: left;
   width: 250px;
